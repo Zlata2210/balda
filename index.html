@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+
+    <title> БАЛДА</title>
+  </head>
+  <body>
+
+      <div id="conteiner">
+
+          <div class="Cell" id="Cell111" onclick="Onclick(1,1)">  <input type="text" name="InputWord" id="IW1"> </div>
+          <div class="Cell" id="Cell212" onclick="Onclick(1,2)"> <input type="text" name="InputWord" id="IW2"> </div>
+          <div class="Cell" id="Cell313" onclick="Onclick(1,3)"><input type="text" name="InputWord" id="IW3"> </div>
+          <div class="Cell" id="Cell414" onclick="Onclick(1,4)"><input type="text" name="InputWord" id="IW4"></div>
+          <div class="Cell" id="Cell515" onclick="Onclick(1,5)"><input type="text" name="InputWord" id="IW5"></div>
+          <div class="Cell" id="Cell621" onclick="Onclick(2,1)"><input type="text" name="InputWord" id="IW6"></div>
+          <div class="Cell" id="Cell722" onclick="Onclick(2,2)"><input type="text" name="InputWord" id="IW7"> </div>
+          <div class="Cell" id="Cell823" onclick="Onclick(2,3)"><input type="text" name="InputWord" id="IW8"> </div>
+          <div class="Cell" id="Cell924" onclick="Onclick(2,4)"><input type="text" name="InputWord" id="IW9"> </div>
+          <div class="Cell" id="Cell1025" onclick="Onclick(2,5)"><input type="text" name="InputWord" id="IW10"> </div>
+          <div class="Cell" id="Cell1131" onclick="Onclick(3,1)"><input type="text" name="InputWord" id="IW11" style="display:none"></div>
+          <div class="Cell" id="Cell1232" onclick="Onclick(3,2)"><input type="text" name="InputWord" id="IW12" style="display:none"> </div>
+          <div class="Cell" id="Cell1333" onclick="Onclick(3,3)"><input type="text" name="InputWord" id="IW13" style="display:none"></div>
+          <div class="Cell" id="Cell1434" onclick="Onclick(3,4)"><input type="text" name="InputWord" id="IW14" style="display:none"> </div>
+          <div class="Cell" id="Cell1535" onclick="Onclick(3,5)"><input type="text" name="InputWord" id="IW15" style="display:none"> </div>
+          <div class="Cell" id="Cell1641" onclick="Onclick(4,1)"><input type="text" name="InputWord" id="IW16"> </div>
+          <div class="Cell" id="Cell1742" onclick="Onclick(4,2)"><input type="text" name="InputWord" id="IW17"> </div>
+          <div class="Cell" id="Cell1843" onclick="Onclick(4,3)"><input type="text" name="InputWord" id="IW18"> </div>
+          <div class="Cell" id="Cell1944" onclick="Onclick(4,4)"><input type="text" name="InputWord" id="IW19"> </div>
+          <div class="Cell" id="Cell2045" onclick="Onclick(4,5)"><input type="text" name="InputWord" id="IW20"> </div>
+          <div class="Cell" id="Cell2151" onclick="Onclick(5,1)"><input type="text" name="InputWord" id="IW21"> </div>
+          <div class="Cell" id="Cell2252" onclick="Onclick(5,2)"><input type="text" name="InputWord" id="IW22"> </div>
+          <div class="Cell" id="Cell2353" onclick="Onclick(5,3)"><input type="text" name="InputWord" id="IW23"> </div>
+          <div class="Cell" id="Cell2454" onclick="Onclick(5,4)"><input type="text" name="InputWord" id="IW24"> </div>
+          <div class="Cell" id="Cell2555" onclick="Onclick(5,5)"><input type="text" name="InputWord" id="IW25"> </div>
+      </div>
+      <div id="buttons">
+      <input type="button" name="" value="Собрать слово" onclick="OnclickWord()">
+      <input type="button" name="" value="Next" onclick="OnClickNext()">
+      <input type="button" name="" value="Подтвердить слово" onclick="OnClickPod()">
+      <input type="button" name="" value="Завершить игру" onclick="GameOver()">
+      <input type="button" name="" value="Новая игра" onclick="Newgame()">
+      <div class="table" id="tableWord"> Собранные слова:  </div>
+      </div>
+      <div id="RecordName">
+        <input type="text" name="" value="" id="PlayerName">
+        <input type="button" name="Save" value="" onclick="SavePlayer()">
+      </div>
+      <div id="RecordTable"> Таблица рекордов:  </div>
+  <script src="game.js"></script>
+  <script src="array.js"></script>
+
+  </body>
+</html>
